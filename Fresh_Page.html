@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+</head>
+
+<body>
+    <!--Forms
+    can have a method and an Action
+Method -> How we send some info
+Action -> Where to send the info-->
+
+<!-- Get method sends form input to URL bar-->
+<!-- With a name: value pair-->
+<!-- They are used like a hyperlink-->
+<Form method="get" action="search">
+    <h4>GET form </h4>
+    <input type-"text" name="q">
+    <button type="submit">search</button>
+</form>
+
+
+<!--Post method sends data to an ACTION url-->
+<form method="post" action="mailform.php">
+    <h4>Post Form</h4>
+    <input name-"Sender" type-"Text">
+    <button type="submit">SEND</button>
+
+<!--Forms can be created without a method or an action-->
+<form>
+    <h4>More Inputs</h4>
+    <input type="checkbox"
+    name="CheckboxOne" value="1"/>1
+    <input type="checkboxTwo" value="2"/>2
+
+    <fieldset>
+    <input type="radio" name="mc" value="a"/>a
+    <input type="radio" name="mc" value="b"/>b
+    <input type="radio" name="mc" value="c"/>c
+    <input type="radio" name="mc" value="d"/>d
+    </fieldset>
+
+<input type="date"
+name="partytime"/>
+
+    <input type="color"
+    name="picker"/>
+
+</form>
+
+<form action="file:///C:/Users/Admin/Desktop/HTML%20GITHUB/HTML/HTML2/Index2.html" method="post">
+    <h1> Sign Up</h1>
+    <fieldset>
+        <legend><span class="number">1</span> Your Basic Info</legend>
+        <label for="name">Name:</label>
+        <input type="text" id=name" name=user_name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="mail" name="user_email">
+        <br>
+        <label for "password">Password</label>
+        <input type="password" id="password" name="user"password">
+        <br>
+        <label>Gender:</label>
+        <br>
+        <input type="radio" id="m_gender" value="m_gender" name="gender"><label for="m_gender">Male</label><br>
+        <input type="radio" id="f_gender" value="f_gender" name="gender"><label for="f_gender">Female</label>
+    </fieldset>
+    <button type="submit">Sign Up</button>
+</form>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
